@@ -21,7 +21,10 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
             setContentView(R.layout.activity_main)
         }
     }
+    
     override fun onPause() {
         super.onPause()
     }
+    
+    override fun onBackPressed() {}
 }
